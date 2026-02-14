@@ -12,11 +12,9 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  // --- СОСТОЯНИЕ ---
   bool __isLiked = false;
   int __likeCount = 0;
 
-  // --- ДОГИЖКА ---
   void __toggleLike() {
     setState(() {
       __isLiked = !__isLiked;
