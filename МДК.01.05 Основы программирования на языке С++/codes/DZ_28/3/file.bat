@@ -1,0 +1,1 @@
+g++ -g -fsanitize=address -fno-omit-frame-pointer file2.cpp -o app
